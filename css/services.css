@@ -76,12 +76,17 @@ html {
   color: #ffffff;
 }
 .service-subscribe-right {
-    display: flex;
+  display: flex;
 }
 .subscribe {
   padding: 20px;
   width: 333px;
-  /* height: 58px; */
+  outline: none;
+  font-family: Montserrat-medium;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: black;
   background: #f9f9f9;
   border: 1px solid #e6e6e6;
   border-bottom-left-radius: 5px;
@@ -95,7 +100,6 @@ html {
   color: var(--content-color);
 }
 .sub {
-  /* height: 58px; */
   padding: 20px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -104,53 +108,53 @@ html {
   letter-spacing: 0.5px;
   color: white;
   background-color: var(--btn-bgc-color);
+  cursor: pointer;
 }
 
-@media (max-width:1100px) {
-    .service-card-block {
-        flex-direction: column;
-        align-items: center;
-        gap: 70px;
-    }
-    .service-card-left video {
-        width: 100%;
-    }
-    .service-card-right-top {
-        text-align: center;
-    }
-    .service-card-right-top p {
-        margin-top: 15px;
-    }
-    .service-logo-block {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 80px;
-    }
-    .service-logo-block img {
-        width: 140px;
-    }
-    .service-subscribe {
-        margin: 90px -20px 0 -20px;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 30px;
-        border-radius: 0;
-    }
-    .service-subscribe-right {
-        flex-direction: column;
-        width: 100%;
-        gap: 30px;
-    }
-    .subscribe {
-        width: 100%;
-        border-radius: 5px;
-    }
-    .sub {
-        padding: 18px;
-        border-radius: 5px;
-        width: 130px;
-        margin: 0 auto;
-    }
-
+@media (max-width: 1100px) {
+  .service-card-block {
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+  }
+  .service-card-left video {
+    width: 100%;
+  }
+  .service-card-right-top {
+    text-align: center;
+  }
+  .service-card-right-top p {
+    margin-top: 15px;
+  }
+  .service-logo-block {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+  }
+  .service-logo-block img {
+    width: 140px;
+  }
+  .service-subscribe {
+    margin: 90px -20px 0 -20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    border-radius: 0;
+  }
+  .service-subscribe-right {
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+  }
+  .subscribe {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .sub {
+    padding: 18px;
+    border-radius: 5px;
+    width: 130px;
+    margin: 0 auto;
+  }
 }
